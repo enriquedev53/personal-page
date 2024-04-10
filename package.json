@@ -5,13 +5,20 @@
   "author": "personal-page",
   "version": "0.0.0",
   "type": "module",
+  "main": "index.html",
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server"
   },
+  "files": [
+    "/src/",
+    "*.js",
+    "!**/*.scss"
+  ],
   "dependencies": {
-    "lit": "^2.0.2",
     "lit-element": "^4.0.4",
+    "lit-html": "^3.1.2",
+    "lit": "^2.0.2",
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
