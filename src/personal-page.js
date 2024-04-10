@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from '../node_modules/lit-element/lit-element.js';
 import { arrayAside, experience, projects } from './data/data.js';
 import './components/header-component.js';
 import './components/main-component.js';
